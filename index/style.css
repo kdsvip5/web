@@ -1,0 +1,1605 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #2c3e50;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e67e22;
+}
+
+.language-switcher {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.language-switcher button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  border: none;
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background-color: #e67e22;
+}
+/* גופן, צבע רקע וצבעים כללים */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Main content */
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #ffd700; /* צבע זהב */
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* כפתור */
+form button {
+  padding: 10px 20px;
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e5c100; /* זהב כהה יותר */
+}
+
+.language-switcher {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.language-switcher button {
+  padding: 10px 20px;
+  background-color: #ffd700; /* צבע זהב */
+  border: none;
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background-color: #e5c100; /* זהב כהה יותר */
+}
+
+/* שיפורים לנגישות */
+input, button {
+  font-size: 16px; /* גודל גופן גדול יותר עבור קריאות טובה יותר */
+}
+
+button:focus, input:focus {
+  outline: 3px solid #ffd700; /* גוון זהב להדגשה כשיש פוקוס */
+}
+
+/* תגובות למצב דפדפן שכולל צבעים בהירים */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+
+  header, footer {
+    background-color: #1a1a1a;
+  }
+
+  form {
+    background-color: #444;
+    color: #f9f9f9;
+  }
+
+  form button {
+    background-color: #e5c100;
+  }
+
+  .language-switcher button {
+    background-color: #e5c100;
+  }
+}
+/* גופן, צבע רקע וצבעים כללים */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* כדי להבטיח שזוהי שפה עברית */
+}
+
+header {
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Main content */
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #ffd700; /* צבע זהב */
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* כפתור */
+form button {
+  padding: 10px 20px;
+  background-color: #ffd700; /* צבע זהב */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e5c100; /* זהב כהה יותר */
+}
+
+.language-switcher {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.language-switcher button {
+  padding: 10px 20px;
+  background-color: #ffd700; /* צבע זהב */
+  border: none;
+  color: #fff;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.language-switcher button:hover {
+  background-color: #e5c100; /* זהב כהה יותר */
+}
+
+/* שיפורים לנגישות */
+input, button {
+  font-size: 16px; /* גודל גופן גדול יותר עבור קריאות טובה יותר */
+}
+
+button:focus, input:focus {
+  outline: 3px solid #ffd700; /* גוון זהב להדגשה כשיש פוקוס */
+}
+
+/* תגובות למצב דפדפן שכולל צבעים בהירים */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+
+  header, footer {
+    background-color: #1a1a1a;
+  }
+
+  form {
+    background-color: #444;
+    color: #f9f9f9;
+  }
+
+  form button {
+    background-color: #e5c100;
+  }
+
+  .language-switcher button {
+    background-color: #e5c100;
+  }
+}
+/* כללי צבעים */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* צבעים מותאמים */
+body.gold {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+body.blue {
+  background-color: #1E3A8A;
+  color: #fff;
+}
+
+body.green {
+  background-color: #10B981;
+  color: #fff;
+}
+
+body.red {
+  background-color: #EF4444;
+  color: #fff;
+}
+
+/* כותרות */
+header {
+  background-color: #ffd700;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* בנר נגישות - באנר שמראה את אופציות הצבעים */
+.accessibility-banner {
+  background-color: #ffd700;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1000;
+}
+
+.accessibility-banner.active {
+  display: block;
+}
+
+/* כפתורים */
+button {
+  padding: 10px 20px;
+  background-color: #ffd700;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #e5c100;
+}
+
+/* כפתורי מעבר צבע */
+.color-switcher button {
+  margin: 5px;
+}
+
+.language-switcher button {
+  margin: 5px;
+}
+/* עיצוב באנר נגישות מודגש */
+.accessibility-banner {
+  background-color: #ffd700; /* צבע זהב בולט */
+  color: #fff; /* טקסט לבן */
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  z-index: 1000;
+  border-radius: 10px; /* פינות מעוגלות */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל להדגשה */
+  animation: fadeIn 0.5s ease-in-out; /* אנימציה להופעה */
+}
+
+/* באנר פעיל */
+.accessibility-banner.active {
+  display: block;
+}
+
+/* אנימציה לבאנר */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* סגנון כפתור ה- "הסתר" לבאנר */
+.accessibility-banner button {
+  background-color: #fff;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.accessibility-banner button:hover {
+  background-color: #ffd700;
+  color: #fff;
+}
+/* עיצוב באנר נגישות מודגש */
+.accessibility-banner {
+  background-color: #ffd700; /* צבע זהב בולט */
+  color: #fff; /* טקסט לבן */
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  z-index: 1000;
+  border-radius: 10px; /* פינות מעוגלות */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל להדגשה */
+  animation: fadeIn 0.5s ease-in-out; /* אנימציה להופעה */
+}
+
+/* באנר פעיל */
+.accessibility-banner.active {
+  display: block;
+}
+
+/* אנימציה לבאנר */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* סגנון כפתור ה- "הסתר" לבאנר */
+.accessibility-banner button {
+  background-color: #fff;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.accessibility-banner button:hover {
+  background-color: #ffd700;
+  color: #fff;
+}
+/* עיצוב באנר נגישות מודגש */
+.accessibility-banner {
+  background-color: #ffd700; /* צבע זהב בולט */
+  color: #fff; /* טקסט לבן */
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 600px;
+  z-index: 1000;
+  border-radius: 10px; /* פינות מעוגלות */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* צל להדגשה */
+  animation: fadeIn 0.5s ease-in-out; /* אנימציה להופעה */
+}
+
+/* באנר פעיל */
+.accessibility-banner.active {
+  display: block;
+}
+
+/* אנימציה לבאנר */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* סגנון כפתור ה- "הסתר" לבאנר */
+.accessibility-banner button {
+  background-color: #fff;
+  color: #ffd700;
+  border: 2px solid #ffd700;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.accessibility-banner button:hover {
+  background-color: #ffd700;
+  color: #fff;
+}
+/* עיצוב אזור התמונה והקטגוריות */
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.section .box {
+  width: 32%;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.section .box:hover {
+  transform: translateY(-10px);
+}
+
+.section .box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.section .box h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.section .box p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+/* סגנון כללי */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* תיבת הערוץ */
+.box {
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box h3 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.box p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ffd700;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.box a:hover {
+  background-color: #ff9900;
+}
+
+/* סגנון הסבר נוסף על המערכת */
+.highlight-section {
+  background-color: #ffd700;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.highlight-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.highlight-section p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+/* סגנון כללי */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl; /* מאפשר לעצב את האתר כראוי בשפה עברית */
+  text-align: right;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* תיבת הערוץ */
+.box {
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.box p {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 15px;
+  background-color: #ffd700;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.box a:hover {
+  background-color: #ff9900;
+}
+
+/* סגנון הסבר נוסף על המערכת */
+.highlight-section {
+  background-color: #ffd700;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.highlight-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.highlight-section p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* הוספת טקסט על השירות */
+.offer-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.offer-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.offer-section p {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* דגש על טקסטים מודגשים */
+strong {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* סגנון כללי */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* עיצוב לחלק "אודות החברה" */
+.about-section {
+  padding: 40px;
+  background-color: #ffd700;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* עיצוב לחלק הצוות */
+.team-section {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.team-member {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* עיצוב לחלק השירותים */
+.services-section {
+  padding: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.services-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.service-item {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service-item h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* דגש על טקסטים מודגשים */
+strong {
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* סגנון כללי */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* עיצוב הכללי של הדף */
+main {
+  padding: 40px 20px;
+}
+
+/* הצטרפות */
+.join-us-section {
+  padding: 40px;
+  background-color: #ffd700;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.join-us-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.join-us-section p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.join-now-button {
+  display: inline-block;
+  background-color: #000;
+  color: #ffd700;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.join-now-button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.join-us-image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.join-us-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* אודות החברה */
+.about-section {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* צוות */
+.team-section {
+  padding: 40px;
+  background-color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.team-member {
+  display: inline-block;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.team-member p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* בנר נגישות */
+.accessibility-banner {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: auto;
+  z-index: 1000;
+}
+
+.accessibility-banner button {
+  margin-left: 10px;
+  background-color: #000;
+  color: #ffd700;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* הסתרת באנר */
+.accessibility-banner button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* בחירת שפה */
+.language-switcher {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.language-switcher button {
+  background-color: #000;
+  color: #ffd700;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.language-switcher button:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+/* כללי */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  color: #FFD700; /* צבע זהב */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #FFD700;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* אזור טפסים */
+.login-section, .signup-section {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+p a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+/* באנר נגישות */
+.accessibility-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.accessibility-banner button {
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.accessibility-banner button:hover {
+  background-color: #ffcc00;
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  color: #FFD700;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+/* כללי */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* צבע רקע בהיר */
+  transition: background-color 0.3s, color 0.3s; /* מעבר חלק בזמן שינוי */
+}
+
+body.dark-mode {
+  background-color: #121212; /* צבע רקע כהה */
+  color: #e1e1e1; /* צבע טקסט בהיר במצב כהה */
+}
+
+/* כותרת ראשית */
+header {
+  background-color: #000000;
+  color: #FFD700; /* צבע זהב */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header.dark-mode {
+  background-color: #333333; /* רקע כהה לכותרת */
+}
+
+/* כפתור החלפת צבע */
+.switch-theme-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.switch-theme-button:hover {
+  background-color: #ffcc00;
+}
+
+/* אזור טפסים */
+.login-section, .signup-section {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section.dark-mode, .signup-section.dark-mode {
+  background-color: #333333; /* רקע כהה */
+  color: #e1e1e1;
+}
+
+h2 {
+  color: #333;
+}
+
+h2.dark-mode {
+  color: #fff; /* טקסט בהיר במצב כהה */
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  color: #FFD700;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+footer.dark-mode {
+  background-color: #333333;
+}
+/* כללי */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* צבע רקע בהיר */
+  color: #333; /* צבע טקסט כהה */
+  transition: background-color 0.3s, color 0.3s; /* מעבר חלק בזמן שינוי */
+}
+
+body.dark-mode {
+  background-color: #121212; /* צבע רקע כהה */
+  color: #e1e1e1; /* צבע טקסט בהיר במצב כהה */
+}
+
+/* כותרת ראשית */
+header {
+  background-color: #000000;
+  color: #FFD700; /* צבע זהב */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header.dark-mode {
+  background-color: #333333; /* רקע כהה לכותרת */
+}
+
+/* כפתור החלפת צבע */
+.switch-theme-button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #FFD700;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.switch-theme-button:hover {
+  background-color: #ffcc00;
+}
+
+/* אזור טפסים */
+.login-section, .signup-section {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section.dark-mode, .signup-section.dark-mode {
+  background-color: #333333; /* רקע כהה */
+  color: #e1e1e1;
+}
+
+h2 {
+  color: #333;
+}
+
+h2.dark-mode {
+  color: #fff; /* טקסט בהיר במצב כהה */
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  color: #FFD700;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+footer.dark-mode {
+  background-color: #333333;
+}
+/* כללי */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* צבע רקע בהיר */
+  color: #333; /* צבע טקסט כהה */
+  transition: background-color 0.3s, color 0.3s; /* מעבר חלק בזמן שינוי */
+}
+
+/* כותרת ראשית */
+header {
+  background-color: #000000;
+  color: #FFD700; /* צבע זהב */
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header.dark-mode {
+  background-color: #333333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  color: #FFD700;
+}
+
+h3.dark-mode {
+  color: #fff;
+}
+
+/* ערוצים */
+.channels {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+
+.channel-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.channel-card.dark-mode {
+  background-color: #333333;
+  color: #e1e1e1;
+}
+
+.channel-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.channel-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #FFD700;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.channel-card a:hover {
+  background-color: #ffcc00;
+}
+
+.channel-card.dark-mode a {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFD700;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+footer.dark-mode {
+  background-color: #333333;
+}
+/* עיצוב לפופ-אפ */
+.alert {
+    background-color: #f44336; /* אדום עבור שגיאה */
+    color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #f44336;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* פופ-אפ הצלחה */
+.alert-success {
+    background-color: #4CAF50; /* ירוק עבור הצלחה */
+    color: white;
+}
+
+/* הפופ-אפ יסתיר את עצמו לאחר 5 שניות */
+.alert-hidden {
+    display: none;
+}
+/* עיצוב השדה של השם */
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* שינוי צבע השדה כאשר העכבר נמצא עליו */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3a7dff;
+    outline: none;
+}
+// שינוי צבעים דינמי
+function changeColor(color) {
+  // משנה את צבע הרקע של הגוף לפי הבחירה
+  document.body.className = color;
+  localStorage.setItem('theme', color); // שומר את הצבע שבחרת בשמירה המקומית
+}
+
+// טוען את הצבע שנשמר
+window.onload = function() {
+  const savedColor = localStorage.getItem('theme'); // טוען את הצבע שנשמר
+  if (savedColor) {
+    document.body.className = savedColor;
+  }
+};
+
+// פונקציה לבדיקת אם כל השדות מלאים בהתחברות
+function validateForm() {
+  const username = document.querySelector("input[name='username']").value;
+  const email = document.querySelector("input[name='email']").value;
+  const password = document.querySelector("input[name='password']").value;
+  
+  // אם יש שדה ריק, יפנה את המשתמש להשלמתם
+  if (username === "" || email === "" || password === "") {
+    alert("אנא מלא את כל השדות");
+    return false;
+  }
+
+  return true; // אם כל השדות מלאים, יאפשר להגיש את הטופס
+}
+
+// הוספת אזהרה אם לא הוזנה סיסמה נכונה
+document.querySelector("form").addEventListener("submit", function(event) {
+  if (!validateForm()) {
+    event.preventDefault(); // מונע את שליחת הטופס אם יש שגיאה
+  }
+});
+function submitForm(event) {
+  event.preventDefault(); // מונע טעינה מחדש של הדף
+
+  // קבלת הערכים מהטופס
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const subject = document.getElementById("subject").value;
+  const message = document.getElementById("message").value;
+
+  // הצגת הודעה שההודעה נשלחה
+  const confirmationMessage = document.getElementById("confirmation-message");
+  confirmationMessage.innerHTML = `
+    <p>תודה, ${name}! ההודעה שלך נשלחה בהצלחה. אנו ניצור קשר בהקדם האפשרי.</p>
+  `;
+
+  // (למקרה של מערכת ניהול אמיתית, כאן היינו שומרים את ההודעה בבסיס נתונים)
+  console.log("הודעה נשלחה:");
+  console.log(`שם: ${name}`);
+  console.log(`אימייל: ${email}`);
+  console.log(`נושא: ${subject}`);
+  console.log(`הודעה: ${message}`);
+
+  // ניקוי הטופס
+  document.getElementById("contact-form").reset();
+}
+// contact.js
+
+function submitForm(event) {
+  event.preventDefault(); // מונע טעינה מחדש של הדף
+
+  // קבלת הערכים מהטופס
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const subject = document.getElementById("subject").value;
+  const message = document.getElementById("message").value;
+
+  // שמירה ב-localStorage
+  const contactMessage = {
+    name: name,
+    email: email,
+    subject: subject,
+    message: message,
+    date: new Date().toISOString(), // זמן שליחת ההודעה
+  };
+
+  let messages = JSON.parse(localStorage.getItem("messages")) || []; // אם יש הודעות קיימות, נטען אותן
+  messages.push(contactMessage); // נוסיף את ההודעה החדשה
+  localStorage.setItem("messages", JSON.stringify(messages)); // נשמור את ההודעות ב-localStorage
+
+  // הצגת הודעה שההודעה נשלחה
+  const confirmationMessage = document.getElementById("confirmation-message");
+  confirmationMessage.innerHTML = `
+    <p>תודה, ${name}! ההודעה שלך נשלחה בהצלחה. אנו ניצור קשר בהקדם האפשרי.</p>
+  `;
+
+  // ניקוי הטופס
+  document.getElementById("contact-form").reset();
+}

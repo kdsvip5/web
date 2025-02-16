@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ברוכים הבאים ל-GlobalTV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- באנר נגישות -->
+  <div class="accessibility-banner">
+    <p>בחר צבע נגישות מהתפריט למעלה</p>
+    <button onclick="hideBanner()">הסתר</button>
+  </div>
+
+  <header>
+    <h1>ברוכים הבאים ל-GlobalTV</h1>
+    <nav>
+      <a href="index.html?lang=he">דף הבית</a>
+      <a href="channels.html?lang=he">ערוצים</a>
+      <a href="about.html?lang=he">אודות החברה</a>
+      <a href="login.html?lang=he">התחברות</a>
+      <a href="signup.html?lang=he">הצטרפות</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- הצטרפות -->
+    <section class="join-us-section">
+      <h2>הצטרפו ל-GlobalTV היום!</h2>
+      <p>לא רק שתיהנו ממגוון רחב של ערוצים בשידור חי, אלא גם תוכלו לצפות בתוכן על פי דרישה ובאיכות גבוהה במיוחד.</p>
+      <p><strong>הצטרפו עכשיו ותיהנו משירות מקצועי, מהיר וזמין 24/7.</strong></p>
+      <a href="signup.html?lang=he" class="join-now-button">הצטרף עכשיו</a>
+      <div class="join-us-image-container">
+        <img src="https://miro.medium.com/v2/resize:fit:735/1*ytZmWnH0x7xhvdqe_clnxA.jpeg" alt="הצטרפות ל-GlobalTV" class="join-us-image" />
+      </div>
+    </section>
+
+    <!-- אודות החברה -->
+    <section class="about-section">
+      <h2>ברוכים הבאים ל-GlobalTV</h2>
+      <p>ב-GlobalTV, אנו מחויבים לספק לכם את השירות האיכותי ביותר בתעשיית הטלוויזיה האינטרנטית. אנחנו מציעים מגוון רחב של ערוצים מכל רחבי העולם, טכנולוגיה מתקדמת ותגובה מיידית. הצוות שלנו זמין 24/7 כדי להבטיח שכל לקוח יקבל את השירות הטוב ביותר עם מענה מהיר בכל שאלה או בעיה.</p>
+      <p><strong>צוות מקצועי וזמין</strong>: הצוות שלנו כולל אנשי מקצוע מנוסים בתחום ה-GlobalTV, אשר מבינים את צרכי הלקוחות ומספקים פתרונות בזמן אמת. אנו עונים לכל שאלה תוך זמן קצר ומבטיחים חווית צפייה חלקה ומרשימה.</p>
+    </section>
+
+    <!-- צוות -->
+    <section class="team-section">
+      <h2>הצוות שלנו</h2>
+      <div class="team-member">
+        <img src="https://www.pexels.com/photo/teamwork-in-a-business-meeting-1181396/" alt="צוות עבודה" />
+        <p><strong>צוות טכנולוגי</strong>: אנחנו משתמשים בטכנולוגיות המתקדמות ביותר כדי לוודא שכל לקוח מקבל את החוויה הטובה ביותר. המפתחים שלנו עובדים כל הזמן על שדרוגים ועדכונים.</p>
+      </div>
+      
+      <div class="team-member">
+        <img src="https://www.pexels.com/photo/group-of-people-having-a-meeting-1181393/" alt="צוות מקצועי" />
+        <p><strong>צוות שירות לקוחות</strong>: תמיד כאן כדי להקשיב, לפתור בעיות ולתמוך בכם. השירות שלנו זמין 24/7.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="copyright">© 2025 GlobalTV - כל הזכויות שמורות.</p>
+  </footer>
+
+  <!-- בחירת שפה -->
+  <div class="language-switcher">
+    <button onclick="setLanguage('he')">עברית</button>
+    <button onclick="setLanguage('en')">English</button>
+  </div>
+</body>
+</html>

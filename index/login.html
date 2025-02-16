@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he"> <!-- כאן אנחנו מגדירים את השפה של הדף -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>שכחתי סיסמה - GlobalTV</title>
+  <link rel="stylesheet" href="style-main.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="gold">
+  <header>
+    <nav>
+      <a href="index.html" class="nav-link">דף הבית</a>
+      <a href="channels.html" class="nav-link">ערוצים</a>
+      <a href="about.html" class="nav-link">אודות</a>
+      <a href="login.html" class="nav-link">התחברות</a>
+    </nav>
+
+    <!-- כפתור לשינוי שפה -->
+    <div class="language-switcher">
+      <button onclick="setLanguage('he')">עברית</button>
+      <button onclick="setLanguage('en')">English</button>
+    </div>
+  </header>
+
+  <!-- באנר עזרה -->
+  <div class="forgot-password-banner">
+    <p>שכחת את הסיסמה שלך? אל דאגה, אנחנו כאן לעזור!</p>
+  </div>
+
+  <!-- טופס לשחזור סיסמה -->
+  <div class="forgot-password-container">
+    <h2>שחזור סיסמה</h2>
+    <form action="reset_password_process.php" method="POST">
+      <input type="email" name="email" placeholder="הכנס את כתובת האימייל שלך" required>
+      <button type="submit">שלח בקשה לשחזור סיסמה</button>
+    </form>
+
+    <p>אם אינך זוכר את כתובת האימייל, <a href="contact_us.html">פנה אלינו</a></p>
+
+    <div class="status" id="status"></div>
+  </div>
+
+  <footer>
+    <p>© 2025 GlobalTV - כל הזכויות שמורות.</p>
+  </footer>
+</body>
+</html>

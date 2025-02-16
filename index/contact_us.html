@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>צור קשר - GlobalTV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="nav-link">דף הבית</a>
+      <a href="channels.html" class="nav-link">ערוצים</a>
+      <a href="about.html" class="nav-link">אודות</a>
+      <a href="login.html" class="nav-link">התחברות</a>
+      <a href="contact.html" class="nav-link">צור קשר</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <h2>צור קשר עם GlobalTV</h2>
+      <form id="contact-form" method="POST" onsubmit="submitForm(event)">
+        <label for="name">שם מלא:</label>
+        <input type="text" id="name" name="name" placeholder="הכנס את שמך המלא" required>
+
+        <label for="email">אימייל:</label>
+        <input type="email" id="email" name="email" placeholder="הכנס את כתובת האימייל שלך" required>
+
+        <label for="subject">נושא ההודעה:</label>
+        <input type="text" id="subject" name="subject" placeholder="נושא ההודעה" required>
+
+        <label for="message">הודעה:</label>
+        <textarea id="message" name="message" placeholder="הכנס את תוכן ההודעה" required></textarea>
+
+        <button type="submit">שלח הודעה</button>
+      </form>
+
+      <div id="confirmation-message" class="confirmation-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 GlobalTV - כל הזכויות שמורות.</p>
+  </footer>
+</body>
+</html>
